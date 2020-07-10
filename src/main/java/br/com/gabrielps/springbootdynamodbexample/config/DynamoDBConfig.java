@@ -12,10 +12,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class DynamoDBConfig {
 
-    public static final String SERVICE_ENDPOINT = "dynamodb.us-east-1.amazonaws.com";
-    public static final String REGION = "us-east-1";
-    public static final String ACCESS_KEY = "AKIAUZYV7N7K6G5OTGWL";
-    public static final String SECRET_KEY = "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";
+    public static final String SERVICE_ENDPOINT = "";
+    public static final String REGION = "";
+    public static final String ACCESS_KEY = "";
+    public static final String SECRET_KEY = "";
 
     @Bean
     public DynamoDBMapper mapper() {
